@@ -1,0 +1,596 @@
+@media (max-width:991px) {
+    .btn_primary {
+        display: flex;
+        justify-content: center;
+        font-size: 16px;
+        padding: 12px 32px 13px 33px;
+        margin-bottom: 16px;
+    }
+
+    .btn_secondary {
+        display: flex;
+        justify-content: center;
+        font-size: 16px;
+        padding: 11px 28px;
+    }
+
+    /* -------------------------------------------------------------------------- */
+    /*                                Main Section                                */
+    #banner h5 {
+        font-size: 20px;
+    }
+
+    #banner h5 img {
+        width: 20px;
+        height: 20px;
+        margin-top: -5px;
+    }
+
+    #banner h1 {
+        font-size: 45px;
+    }
+    
+    #banner p {
+        font-size: 12px;
+    }
+
+    #banner .cnt p {
+        font-size: 16px;
+    }
+
+    #banner .cnt a {
+        padding: 8px;
+        border-radius: 100%;
+        margin: 66px 20px 1px -1px;
+        align-items: center;
+        display: inline-flex;
+    }
+
+    #banner .img-fluid {
+        max-width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+    /* -------------------------------------------------------------------------- */
+
+    /* -------------------------------------------------------------------------- */
+    /*                                About Section                               */
+    #about h5 {
+        font-size: 24px;
+        margin: 50px 0 16px 17px;
+    }
+
+    #about p {
+        font-size: 14px;
+        margin: 0 0 36px 17px;
+    }
+
+    #about a {
+        margin: auto;
+    }
+
+    #about img {
+        transform: rotateY(180deg);
+    }
+
+    #about .vector {
+        transform: rotateX(180deg);
+        position: relative;
+    }
+
+    #about .vector img {
+        position: absolute;
+        top: -44px;
+        right: 30px;
+        width: 87px;
+        height: 44px;
+    }
+    /* -------------------------------------------------------------------------- */
+
+    /* -------------------------------------------------------------------------- */
+    /*                               Skills Section                               */
+    #skills {
+        display: flex;
+        justify-content: center;
+        padding: 100px 0 110px;
+    }
+    
+    #skills .card {
+        display: flex;
+        border-radius: 12px;
+        box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.08);
+        margin: 10px 0;
+        width: 343px;
+        height: 156px;
+    }
+
+    #skills .card img {
+        display: block;
+        position: relative;
+        width: 43px;
+        height: 45px;
+        margin: 22px auto 0;
+    }
+
+    #skills .card h5 {
+        text-align: left;
+        font-size: 16px;
+        margin: -40px 0 0 80px;
+    }
+
+    #skills .card p {
+        text-align: left;
+        font-size: 12px;
+        margin: 0 30px 0 80px;
+    }
+
+    .col-9 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    /* -------------------------------------------------------------------------- */
+
+    /* -------------------------------------------------------------------------- */
+    /*                              Branding Section                              */
+    #branding {
+        border-radius: 20px;
+        width: 343px;
+        height: 533px;
+    }
+
+    #branding img {
+        width: 308px;
+        height: 275px;
+    }
+
+    #branding .img-fluid {
+        margin-top: 5px;
+    }
+
+    #branding .data h2 {
+        font-size: 24px;
+        margin: 27px 0 17px 40px;
+    }
+
+    #branding .data p {
+        font-size: 14px;
+        margin: 0 31px 0 40px;
+    }
+
+    #branding a {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 180%;
+        border: none;
+        display: inline-flex;
+        margin-left: 16px;
+    }
+
+    #branding a:hover {
+        background-color: transparent;
+        color: var(--primary-color);
+    }
+
+    #branding a:focus {
+        font-weight: 600;
+        transition: .2s;
+    }
+
+    #branding .horn img {
+        width: 42px;
+        height: 42px;
+        position: absolute;
+        right: 30px;
+        top: -35px;
+    }
+
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                                Help Section                                */
+
+#help .textPart h2 {
+    text-align: left;
+    font-size: 24px;
+    margin-bottom: 26px;
+}
+
+#help .textPart p {
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.review {
+    margin-bottom: 30px;
+}
+
+#help .review {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 26px;
+}
+
+#help .review ul li p,
+#help .review ul li h2 {
+    text-align: left;
+}
+
+#help .review ul li h2 {
+    font-size: 24px;
+    text-align: left;
+}
+
+#help .review ul li p {
+    font-size: 10px;
+}
+
+#help .box {
+    display: flex;
+    border-radius: 12px;
+    width: 343px;
+    height: 83px;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+}
+
+#help .box img {
+    width: 32px;
+    height: 32px;
+    margin-top: 10px;
+}
+
+#help .box h6 {
+    font-size: 15px;
+}
+
+#help .box p {
+    font-size: 12px;
+}
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                             Experience Section                             */
+#experience .heading h1 {
+    font-size: 24px;
+    text-align: center;
+    padding: 96px 0 50px;
+}
+
+#experience .wrapper {
+    display: block;
+    margin: 0 10px;
+}
+
+#experience .wrapper h4 {
+    font-size: 14px;
+}
+
+#experience .wrapper .designation::before {
+    content: '';
+    position: absolute;
+    top: -17px;
+    right: -17px;
+    width: 32px;
+    height: 32px;
+    border: 2px dashed var(--back-color);
+    border-radius: 50%;
+    background-color: var(--third-color);
+}
+
+#experience .wrapper .designation::after {
+    content: '';
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+}
+
+#experience .wrapper .designation p {
+    font-size: 10px;
+}
+
+#experience .wrapper .role p {
+    font-size: 11px;
+}
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                                 Expart Area                                */
+#expArea .areas h1 {
+    font-size: 24px;
+    margin: 77px 0 26px;
+}
+
+#expArea .areas p {
+    font-size: 15px;
+    margin-bottom: 17px;
+}
+
+#expArea .areas a {
+    display: none;
+}
+
+#expArea .rate {
+    margin-top: -200px;
+}
+.rate a .skill {
+    border: 2px solid var(--primary-color);
+    border-radius: 15px;
+    
+}
+
+.rate a .edu, 
+.rate a .skill {
+    padding: 10px;
+}
+
+.rate a h3 {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 250px;
+}
+
+.photoshop .name, 
+.xd .name, 
+.illustrator .name, 
+.figma .name {
+    font-size: 14px;
+    margin-top: 51px;
+}
+
+.photoshop .ratio, 
+.xd .ratio, 
+.illustrator .ratio, 
+.figma .ratio {
+    font-size: 14px;
+    text-align: right;
+    padding-top: 51px;
+    width: 50%;
+}
+
+.illustrator .blw, 
+.xd .blw, 
+.photoshop .blw, 
+.figma .blw {
+    margin-top: 8px;
+    height: 3px;
+}
+
+.illustrator .upper4, 
+.xd .upper3, 
+.photoshop .upper2, 
+.figma .upper1 {
+    position: absolute;
+    top: 84px;
+    width: 85%;
+    height: 3px;
+    margin-bottom: -10px;
+    z-index: 1;
+}
+
+.photoshop .upper2 {
+    width: 75%;
+}
+
+.xd .upper3 {
+    width: 80%;
+}
+
+.illustrator .upper4 {
+    width: 70%;
+}
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                                 My Services                                */
+#mySvc {
+    max-width: 376px;
+    height: 859px;
+    margin-top: 99px;
+}
+
+#mySvc .top h1 {
+    font-size: 24px;
+    text-align: left;
+    padding-top: 34px;
+}
+
+#mySvc .top p {
+    font-size: 13px;
+    text-align: left;
+    color: var(--back-color);
+    padding: 10px 0 45px;
+}
+
+.pocket,
+.pocket.big {
+    display: flex;
+    border-radius: 12px;
+    width: 343px;
+    height: 200px;
+    margin-bottom: 15px;
+}
+
+.pocket.big {
+    background: linear-gradient(151deg, #fc0 0%, #ffe476 98.84%);
+    margin-top: 5px;
+}
+
+.pocket:focus,
+.pocket.big:focus {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.06);
+}
+
+.pocket img,
+.pocket.big  img {
+    width: 54px;
+    height: 54px;
+    display: block;
+    margin: 24px 0 0 27px;
+}
+
+.pocket.big h5, 
+.pocket h5 {
+    font-size: 15px;
+    text-align: left;
+    padding: 26px 0 9px 31px;
+}
+
+.pocket.big p, 
+.pocket p {
+    font-size: 13px;
+    text-align: left;
+    padding: 0 31px;
+}
+
+.pocket.big h5,
+.pocket.big p {
+    color: var(--third-color);
+}
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                              Feedback Section                              */
+#feedbaack .begin h1 {
+    font-size: 24px;
+}
+
+#feedbaack .begin p {
+    font-size: 13px;
+}
+
+#feedback img {
+    margin-bottom: -6px;
+}
+
+.cmnt p {
+    font-size: 15px;
+    margin-top: 19px;
+}
+
+.cmnt h5 {
+    font-size: 15px;
+}
+
+.cmnt h6 {
+    font-size: 12px;
+    margin-left: 40px;
+}
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+/*                                 Newsteller                                 */
+#steller {
+    border-radius: 19px;
+    width: 343px;
+    height: 275px;
+}
+
+#steller h6 {
+    font-size: 12px;
+    padding: 32px 0 0 40px;
+}
+
+#steller h4 {
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+#steller p {
+    font-size: 14px;
+    padding-left: 40px;
+}
+
+#steller input {
+    border-radius: 10px 0 0 10px;
+    width: 60px;
+    height: 47px;
+    margin: -42px 0 0 -5px;
+}
+
+#steller input:placeholder-shown {
+    font-size: 12px;
+}
+
+#steller button {
+    border-radius: 0 10px 10px 0;
+    width: 96px;
+    height: 47px;
+    font-size: 12px;
+    margin: -42px 0 0 -5px;
+}
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                                   Footer                                   */
+footer {
+    width: 376px;
+    height: 458px;
+    margin: auto;
+}
+
+.uplft img {
+    width: 12px;
+    height: 12px;
+    margin: 29px 0 17px 17px;
+}
+
+.upmdl h1 {
+    font-size: 18px;
+    margin: 17px 0 0 17px;
+}
+
+.upmdl p {
+    font-size: 13px;
+    margin: 0 16px 31px 17px;
+}
+
+.uprght a {
+    border-radius: 10px;
+    font-size: 10px;
+    padding: 8px 11px 8px 17px;
+    margin: 0 0 0 17px;
+}   
+
+.dwnmdl h5,
+.dwnlft h5 {
+    font-size: 12px;
+    margin: 40px 0 3px 0;
+}
+
+.dwnmdl h5 {
+    margin: 40px 0 3px 0;
+}
+.dwnmdl h6,
+.dwnlft h6 {
+    font-size: 13px;
+}
+
+.dwnmdl h6 {
+    margin: 0 0 3px 0;
+}
+
+.dwnrght .cnt p {
+    font-size: 14px;
+    margin: 20px 32px 0 0;
+}
+
+.dwnrght .cnt a {
+    margin: 0 16px;
+    padding: 9px;
+    margin: 20px 32px 0 0;
+    align-items: center;
+    display: inline-flex;
+}
+/* -------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+}

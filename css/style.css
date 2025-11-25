@@ -1,0 +1,900 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --font-family: "Poppins", sans-serif;
+  --second-family: "PT Sans", sans-serif;
+  --primary-color: #353535;
+  --secondary-color: #fc0;
+  --third-color: #fff;
+  --back-color: #7a7a7a;
+  --bg-gradient: linear-gradient(130deg, #fc0 0%, #fff5cb 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,span {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-family);
+    margin: auto;
+}
+
+.btn_primary {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 180%;
+    color: var(--third-color);
+    display: inline-flex;
+    align-items: center;
+    gap: 11px;
+    border-radius: 20px;
+    background: var(--secondary-color);
+    padding: 16px 44px 17px 45px;
+}
+
+.btn_primary:hover {
+    text-decoration: none;
+    background: transparent;
+    color: var(--secondary-color);
+    border: 2px solid var(--secondary-color);
+    transition: .3s;
+}
+
+.btn_secondary {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 180%;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 20px;
+    padding: 16px 18px 17px 18px;
+    display: inline-flex;
+    align-items: center;
+    gap: 11px;
+    background-color: transparent;
+}
+
+.btn_secondary:hover {
+    background: var(--primary-color);
+    color: var(--third-color);
+    transition: .3s;
+}
+
+iconify-icon {
+    vertical-align: middle;
+}
+/* -------------------------------------------------------------------------- */
+/*                                Header Starts                               */
+
+#navbarSupportedContent ul li a {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 200%;
+    color: var(--primary-color);
+    padding: 23px 23px 10px;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+}
+
+#navbarSupportedContent ul li a:hover {
+    font-weight: 600;
+    border-bottom: 1px solid var(--primary-color);
+}
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                                Main Section                                */
+#banner {
+    padding: 56px 0 155px;
+}
+
+#banner h5 {
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+#banner h1 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 64px;
+    color: var(--primary-color);
+    margin-bottom: 25px;
+}
+
+#banner p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 180%;
+    color: var(--primary-color);
+    margin-bottom: 45px;
+}
+
+#banner a {
+    text-decoration: none; 
+}
+
+#banner a.btn_primary {
+    margin-right: 40px;
+}
+
+#banner .cnt {
+    display: flex;
+    align-items: center;
+}
+
+#banner .cnt p {
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--primary-color);
+    margin: 66px 32px 0 0;
+}
+
+#banner .cnt a {
+    margin: 0 16px;
+    padding: 10px;
+    color: var(--primary-color);
+    border-radius: 100%;
+    background-color: #f4f3f3;
+    margin: 66px 32px 0 0;
+    align-items: center;
+    display: inline-flex;
+}
+
+#banner .cnt a:hover {
+    background: var(--primary-color);
+    color: var(--third-color);
+    transition: .3s;
+}
+
+#banner .scroll iconify-icon {
+    position: absolute;
+    top: 706px;
+    left: 645px;
+}
+
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                                About Section                               */
+#about {
+    background: var(--bg-gradient);
+    max-width: 1441px;
+    margin: auto;
+}
+
+#about h5 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    color: var(--primary-color);
+    margin: 78px 0 26px 33.82px;
+}
+
+#about p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 190%;
+    color: var(--primary-color);
+    margin: 0 0 45px 33.82px;
+}
+
+#about a {
+    margin-left: 33.82px;
+}
+
+#about .vector {
+    position: relative;
+}
+
+#about .vector img {
+    position: absolute;
+    top: 426px;
+    right: 60px;
+    width: 200px;
+    height: 100px;
+}
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                               Skills Section                               */
+
+#skills {
+    padding: 151px 0 165px;
+}
+
+#skills .card {
+    border: 1px solid var(--third-color);
+    border-radius: 20px;
+    background: var(--third-color);
+    width: 350px;
+    height: 367px;
+}
+
+#skills .card:hover {
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.08);
+    transition: .2s;
+}
+
+#skills .card img {
+    display: block;
+    margin: 28px auto 22px;
+}
+
+#skills .card h5 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 180%;
+    text-align: center;
+    color: var(--primary-color);
+}
+#skills .card p {
+    text-align: center;
+    margin: 14px 48px 64px 46px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 190%;
+    text-align: center;
+    color: var(--back-color);
+}
+
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                              Branding Section                              */
+#branding {
+    margin: 0 auto 147px;
+    border-radius: 30px;
+    width: 1110px;
+    height: 473px;
+    background: var(--bg-gradient);
+    position: relative;
+}
+
+#branding .horn img {
+    width: 75px;
+    height: 76px;
+    position: absolute;
+    right: 88px;
+    top: -50px;
+}
+
+#branding img {
+    margin-top: 18px;
+    height: 461px;
+}
+
+#branding .data h2 {
+    margin: 83px 0 21px;
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 44px;
+    color: var(--primary-color);
+}
+
+#branding .data p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 190%;
+    color: var(--primary-color);
+    margin-bottom: 35px;
+}
+
+#branding .arrow img {
+    width: 74px;
+    height: 77px;
+    position: absolute;
+    bottom: 130px;
+    right: 300px;
+}
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                                Help Section                                */
+#help .box {
+    display: flex;
+    border-radius: 20px;
+    width: 380px;
+    height: 93px;
+    background: var(--third-color);
+    margin-bottom: 24px;
+    padding: 17px 29px;
+}
+
+#help .box:hover {
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.08);
+    transition: .2s;
+}
+#help .box img {
+    width: 58px;
+    height: 58px;
+}
+
+#help .box h6 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 180%;
+    color: var(--primary-color);
+}
+
+#help .box p {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 180%;
+    color: var(--primary-color);
+}
+
+#help .textPart h2 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    text-align: right;
+    color: var(--primary-color);
+    margin-bottom: 26px;
+}
+
+#help .textPart p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 190%;
+    text-align: right;
+    color: var(--primary-color);
+    margin-bottom: 32px;
+}
+
+#help .review {
+    display: flex;
+    align-items: end;
+    justify-content: right;
+    gap: 67px;
+}
+
+#help .review ul li h2 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 40px;
+    text-align: left;
+    color: var(--primary-color);
+}
+
+#help .review ul li p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 180%;
+    color: var(--primary-color);
+}
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                             Experience Section                             */
+#experience .heading h1 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    color: var(--primary-color);
+    padding: 220px 0 80px;
+}
+
+#experience .wrapper h4 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 180%;
+    color: var(--primary-color);
+}
+
+#experience .wrapper .designation {
+    border-right: 2px dashed var(--back-color);
+    position: relative;
+    padding: 3px 0 117px;
+}
+
+#experience .wrapper .designation::before {
+    content: '';
+    position: absolute;
+    top: -21px;
+    right: -21px;
+    width: 42px;
+    height: 42px;
+    border: 2px dashed var(--back-color);
+    border-radius: 50%;
+    background-color: var(--third-color);
+}
+
+#experience .wrapper .designation::after {
+    content: '';
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+#experience .green.wrapper .designation::after{
+    background-color: #52ab70;
+}
+
+#experience .red.wrapper .designation::after{
+    background-color: #f17676;
+}
+
+#experience .yellow.wrapper .designation::after{
+    background-color: #ffd233;
+}
+
+#experience .wrapper .designation p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    color: var(--back-color);
+}
+
+#experience .wrapper .role p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 200%;
+    color: var(--back-color);
+}
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                                 Expart Area                                */
+#expArea .areas h1 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    color: var(--primary-color);
+    margin: 250px 0 50px;
+}
+
+#expArea .areas p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    color: var(--back-color);
+    margin-bottom: 40px;
+}
+
+.rate a h3 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: center;
+    color: var(--primary-color);
+    margin-top: 250px;
+}
+
+.rate a .edu,
+.rate a .skill {
+    padding: 16px;
+}
+
+.rate a .skill {
+    border: 2px solid var(--primary-color);
+    border-radius: 20px;
+    background-color: transparent;
+}
+
+.rate a:hover .skill {
+    background-color: var(--primary-color);
+    color: var(--third-color);
+    transition: .2s;
+}
+
+.photoshop .name,
+.xd .name,
+.illustrator .name,
+.figma .name {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 180%;
+    color: var(--primary-color);
+    margin-top: 51px;
+}
+
+.photoshop .ratio,
+.xd .ratio,
+.illustrator .ratio,
+.figma .ratio {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: right;
+    padding-top: 51px;
+    width: 50%;
+}
+
+.figma .ratio {
+    color: #f16500;
+}
+
+.photoshop .ratio {
+    color: #03249b;
+}
+
+.xd .ratio {
+    color: #700d60;
+}
+
+.illustrator .ratio {
+    color: #234bda;
+}
+
+.illustrator,
+.xd,
+.photoshop,
+.figma {
+    position: relative;
+}
+
+.illustrator .blw,
+.xd .blw,
+.photoshop .blw,
+.figma .blw {
+    margin-top: 11px;
+}
+
+.illustrator .upper4,
+.xd .upper3,
+.photoshop .upper2,
+.figma .upper1 {
+    position: absolute;
+    top: 95px;
+    width: 85%;
+    margin-bottom: -10px;
+    z-index: 1;
+}
+
+.photoshop .upper2 {
+    width: 75%;
+}
+
+.xd .upper3 {
+    width: 80%;
+}
+
+.illustrator .upper4 {
+    width: 70%;
+}
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                                 My Services                                */
+#mySvc {
+    background: #fff7d5;
+    max-width: 1441px;
+    margin:146px auto 91px;
+}
+
+#mySvc .top h1 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    color: var(--primary-color);
+    padding-top: 71px;
+}
+
+#mySvc .top p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: center;
+    color: var(--back-color);
+    padding: 13px 0 73px;
+}
+
+.pocket {
+    border: 0.1px solid transparent;
+    border-radius: 12px;
+    width: 350px;
+    height: 422px;
+    background: var(--third-color);
+    margin-bottom: 104px;
+}
+
+.pocket.big:hover,
+.pocket:hover {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.06);
+    transition: .2s;
+}
+.pocket.big {
+    border: 0.10px solid transparent;
+    border-radius: 12px;
+    height: 448px;
+    background: linear-gradient(151deg, #fc0 0%, #ffe476 98.84%);
+    margin-top: -22px;
+}
+
+.pocket img {
+    width: 88px;
+    height: 88px;
+    display: block;
+    margin: 32px auto 20px;
+}
+
+.pocket.big img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 37px auto 27px;
+}
+
+.pocket.big h5,
+.pocket h5 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 180%;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.pocket.big h5 {
+    font-size: 26px;
+}
+
+.pocket.big p,
+.pocket p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 180%;
+    text-align: center;
+    color: var(--back-color);
+    padding: 25px 49px 79px 48px;
+}
+
+.pocket.big p {
+    font-weight: 500;
+    font-size: 16px;
+    padding: 20px 52px 72px 51px;
+}
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                              Feedback Section                              */
+#feedback {
+    background-color: #fbfbfb;
+    padding-top: 92px;
+    max-width: 1441px;
+    margin: -95px auto;
+}
+#feedbaack .begin h1 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 135%;
+    color: var(--primary-color);
+}
+
+#feedback img {
+    margin-bottom: 59px;
+}
+#feedback .begin p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    color: var(--back-color);
+    margin: 13px 0 63px;
+}
+
+.cmnt p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    color: var(--back-color);
+    margin-bottom: 24px;
+}
+
+.cmnt h5 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 200%;
+    color: var(--primary-color);
+}
+
+.cmnt h6 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    text-align: left;
+    color: var(--back-color);
+}
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                                   Newsletter                               */
+#steller {
+    max-width: 1110px;
+    height: 295px;
+    margin: 150px auto;
+    border-radius: 30px;
+    background: var(--bg-gradient);
+}
+
+#steller h6 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    text-align: left;
+    color: var(--primary-color);
+    padding: 86px 0 0 76px;
+}
+
+#steller h4 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 200%;
+    color: var(--primary-color);
+    padding-left: 76px;
+}
+
+#steller p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 200%;
+    color: var(--primary-color);
+    padding: 0 0 81px 76px;
+}
+
+#steller input {
+    width: 253px;
+    height: 82px;
+    border-radius: 16px 0 0 16px;
+    background: var(--third-color);
+    margin: 109px 0 0 -54px;
+}
+
+#steller input:placeholder-shown {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 200%;
+    color: var(--back-color);
+}
+
+#steller button {
+    border: 1px solid transparent;
+    border-radius: 0 16px 16px 0;
+    width: 132px;
+    height: 82px;
+    background: #ff6565;
+    margin: 109px 53px 0 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 200%;
+    color: var(--primary-color);
+}
+
+#steller button:hover {
+    color: var(--third-color);
+}
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                                   Footer                                   */
+footer {
+    max-width: 1441px;
+    height: 480px;
+    background: #575757;
+    margin: auto;
+    position: relative;
+}
+
+.uplft {
+    margin-top: 71px;
+}
+
+.crcl {
+    position: absolute;
+    top: 187px;
+    left: 88px;
+}
+
+.vctr {
+    position: absolute;
+    bottom: 67px;
+    left: -39px;
+}
+
+.upmdl h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 200%;
+    text-align: left;
+    color: var(--third-color);
+    margin: 47px 0 0 -122px;
+}
+
+.upmdl p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    text-align: left;
+    color: #bbb9b9;
+    margin-left: -122px;
+}
+
+.uprght a {
+    margin: 114px 0 0 55px;
+}
+
+.triangle {
+    position: absolute;
+    top: 162px;
+    right: 79px;
+}
+
+.dwnmdl h5,
+.dwnlft h5 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: left;
+    color: #bbb9b9;
+    margin: 182px 0 4px 0;
+}
+
+.dwnmdl h6,
+.dwnlft h6 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 180%;
+    color: #fff;
+}
+
+.dwnmdl h5 {
+    margin: 182px 0 4px -122px;
+}
+
+.dwnmdl h6 {
+    margin-left: -122px;
+}
+
+.dwnrght .cnt {
+    display: flex;
+    align-items: center;
+}
+
+.dwnrght .cnt p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: left;
+    color: var(--third-color);
+    margin: 147px 32px 0 0;
+}
+
+.dwnrght .cnt a {
+    margin: 0 16px;
+    padding: 10px;
+    color: var(--third-color);
+    border-radius: 100%;
+    background-color: #484848;
+    margin: 147px 32px 0 0;
+    align-items: center;
+    display: inline-flex;
+}
+
+.dwnrght .cnt a:hover {
+    background: var(--primary-color);
+    color: var(--third-color);
+    transition: .3s;
+}
+/* -------------------------------------------------------------------------- */
