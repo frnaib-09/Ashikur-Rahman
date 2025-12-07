@@ -611,17 +611,14 @@ iconify-icon {
     margin-bottom: 104px;
 }
 
-.pocket.big:hover,
 .pocket:hover {
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.06);
-    transition: .2s;
-}
-.pocket.big {
     border: 0.10px solid transparent;
     border-radius: 12px;
     height: 448px;
     background: linear-gradient(151deg, #fc0 0%, #ffe476 98.84%);
     margin-top: -22px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.06);
+    transition: .2s;
 }
 
 .pocket img {
@@ -631,14 +628,13 @@ iconify-icon {
     margin: 32px auto 20px;
 }
 
-.pocket.big img {
+.pocket:hover img {
     width: 100px;
     height: 100px;
     display: block;
     margin: 37px auto 27px;
 }
 
-.pocket.big h5,
 .pocket h5 {
     font-weight: 600;
     font-size: 24px;
@@ -647,11 +643,10 @@ iconify-icon {
     color: var(--primary-color);
 }
 
-.pocket.big h5 {
+.pocket:hover h5 {
     font-size: 26px;
 }
 
-.pocket.big p,
 .pocket p {
     font-weight: 400;
     font-size: 15px;
@@ -661,7 +656,7 @@ iconify-icon {
     padding: 25px 49px 79px 48px;
 }
 
-.pocket.big p {
+.pocket:hover p {
     font-weight: 500;
     font-size: 16px;
     padding: 20px 52px 72px 51px;
@@ -848,7 +843,7 @@ footer {
     line-height: 180%;
     text-align: left;
     color: #bbb9b9;
-    margin: 182px 0 4px 0;
+    margin: 96px 0 4px 0;
 }
 
 .dwnmdl h6,
@@ -860,7 +855,7 @@ footer {
 }
 
 .dwnmdl h5 {
-    margin: 182px 0 4px -122px;
+    margin: 96px 0 4px -122px;
 }
 
 .dwnmdl h6 {
@@ -878,7 +873,7 @@ footer {
     line-height: 180%;
     text-align: left;
     color: var(--third-color);
-    margin: 147px 32px 0 0;
+    margin: 133px 32px 0 0;
 }
 
 .dwnrght .cnt a {
@@ -887,7 +882,7 @@ footer {
     color: var(--third-color);
     border-radius: 100%;
     background-color: #484848;
-    margin: 147px 32px 0 0;
+    margin: 130px 32px 0 0;
     align-items: center;
     display: inline-flex;
 }
