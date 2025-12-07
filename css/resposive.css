@@ -1,4 +1,8 @@
 @media (max-width:991px) {
+    body {
+        max-width: 376px;
+    }
+    
     .btn_primary {
         display: flex;
         justify-content: center;
@@ -55,6 +59,9 @@
 
     /* -------------------------------------------------------------------------- */
     /*                                About Section                               */
+    #about {
+        max
+    }
     #about h5 {
         font-size: 24px;
         margin: 50px 0 16px 17px;
@@ -389,8 +396,8 @@
 /*                                 My Services                                */
 #mySvc {
     max-width: 376px;
-    height: 859px;
-    margin-top: 99px;
+    height: 959px;
+    margin: 99px auto 0;
 }
 
 #mySvc .top h1 {
@@ -481,6 +488,7 @@
     margin-left: 40px;
 }
 /* -------------------------------------------------------------------------- */
+
 /* -------------------------------------------------------------------------- */
 /*                                 Newsteller                                 */
 #steller {
@@ -527,9 +535,9 @@
 /* -------------------------------------------------------------------------- */
 /*                                   Footer                                   */
 footer {
-    width: 376px;
+    max-width: 376px;
     height: 458px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .uplft img {
@@ -586,11 +594,4 @@ footer {
     display: inline-flex;
 }
 /* -------------------------------------------------------------------------- */
-
-
-
-
-
-
-
 }
