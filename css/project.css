@@ -34,11 +34,6 @@ body {
     margin: auto;
 }
 
-hr {
-    width: 1110px;
-    margin: auto;
-}
-
 .btn_primary {
     font-weight: 600;
     font-size: 20px;
@@ -75,7 +70,7 @@ hr {
 }
 
 .btn_secondary:hover {
-    background: var(--primary-color);
+    background-color: var(--primary-color);
     color: var(--third-color);
     transition: .3s;
 }
@@ -138,7 +133,7 @@ iconify-icon {
 
 .cap {
     position: absolute;
-    left: 450px;
+    left: 473px;
     top: 29px;
 }
 
@@ -233,175 +228,47 @@ iconify-icon {
 /* -------------------------------------------------------------------------- */
 
 /* -------------------------------------------------------------------------- */
-/*                           Experience & Education                           */
-#edEx {
-    margin: 73px 0 119px;
-}
-
-.bamn,
-.baml,
-.bamm {
-    padding: 0 47px 47px;
-    border-left: 2px dashed var(--back-color);
-    position: relative;
-}
-
-.baml {
-    padding: 0 47px 0;
-}
-
-.bamn::before,
-.baml::before,
-.bamm::before {
-    content: "";
-    position: absolute;
-    top: -16px;
-    left: -18px;
-    width: 34px;
-    height: 34px;
-    border: 2px dashed var(--back-color);
-    border-radius: 50%;
-    background-color: var(--third-color);
-}
-
-.bamn::after,
-.baml::after,
-.bamm::after {
-    content: "";
-    position: absolute;
-    top: -7px;
-    left: -9px;
-    width: 16px;
-    height: 16px;
-    border-radius: 50%;
-    background-color: #52ab70;
-}
-
-.bamn::after {
-    background-color: #f17676;
-}
-.baml::after {
-    background-color: #ffd233;
-}
-
-#edEx h6 {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 190%;
-    color: var(--back-color);
-    margin-bottom: 10px;
-}
-
-#edEx h1 {
-    font-family: var(--second-family);
-    font-weight: 700;
-    font-size: 40px;
-    color: var(--primary-color);
-    margin-bottom: 71px;   
-}
-
-#edEx h3 {
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 180%;
-    color: var(--primary-color);
-}
-
-#edEx p {
-    font-weight: 400;
+/*                                  Headline                                  */
+#headline .head h4 {
+    font-weight: 500;
     font-size: 18px;
-    line-height: 200%;
-    color: var(--back-color);
+    line-height: 180%;
+    margin-top: 95px;
+    padding: 16px 63px;
+    cursor: pointer;
+}
+
+#headline .head.hdadd h4 {
+    border: 1px solid var(--primary-color);
+    border-radius: 20px;
 }
 /* -------------------------------------------------------------------------- */
 
 /* -------------------------------------------------------------------------- */
-/*                                   Skills                                   */
-#skill {
-    margin-bottom: 118px;
-}
-#skill h1 {
-    font-family: var(--second-family);
-    font-weight: 700;
-    font-size: 40px;
-    color: var(--primary-color);
-    margin-bottom: 49px;
+/*                                    Card                                    */
+#card {
+    margin-bottom: 143px;
 }
 
-.photoshop .name,
-.xd .name,
-.illustrator .name,
-.figma .name {
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 180%;
-    color: var(--primary-color);
-    margin-top: 51px;
+.prjt {
+    margin-top: 85px;
+    gap: 58px;
+    cursor: pointer;
 }
 
-.photoshop .ratio,
-.xd .ratio,
-.illustrator .ratio,
-.figma .ratio {
+.prjt p {
     font-weight: 400;
-    font-size: 18px;
-    line-height: 180%;
-    text-align: right;
-    padding-top: 51px;
-    width: 50%;
+    font-size: 15px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: var(--back-color);
+    padding: 22px 0 6px;
 }
 
-.figma .ratio {
-    color: #f16500;
-}
-
-.photoshop .ratio {
-    color: #03249b;
-}
-
-.xd .ratio {
-    color: #700d60;
-}
-
-.illustrator .ratio {
-    color: #234bda;
-}
-
-.illustrator,
-.xd,
-.photoshop,
-.figma {
-    position: relative;
-}
-
-.illustrator .blw,
-.xd .blw,
-.photoshop .blw,
-.figma .blw {
-    margin-top: 11px;
-}
-
-.illustrator .upper4,
-.xd .upper3,
-.photoshop .upper2,
-.figma .upper1 {
-    position: absolute;
-    top: 95px;
-    width: 85%;
-    margin-bottom: -10px;
-    z-index: 1;
-}
-
-.photoshop .upper2 {
-    width: 75%;
-}
-
-.xd .upper3 {
-    width: 80%;
-}
-
-.illustrator .upper4 {
-    width: 70%;
+.prjt h5 {
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--primary-color);
 }
 /* -------------------------------------------------------------------------- */
 

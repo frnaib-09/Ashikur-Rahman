@@ -80,7 +80,6 @@ iconify-icon {
 }
 /* -------------------------------------------------------------------------- */
 /*                                Header Starts                               */
-
 .navbar {
     background-color: #fff;
 }
@@ -674,7 +673,7 @@ iconify-icon {
     background-color: #fbfbfb;
     padding-top: 92px;
     max-width: 1441px;
-    margin: -95px auto;
+    margin: -95px auto 150px;
 }
 #feedbaack .begin h1 {
     font-family: var(--second-family);
@@ -718,6 +717,71 @@ iconify-icon {
     color: var(--back-color);
 }
 /* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                                  Blog Post                                 */
+#plate {
+    margin: 71px 0 109px;
+}
+
+#plate h1 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 135%;
+    text-align: right;
+    color: var(--primary-color);
+    margin-bottom: 112px;
+}
+
+.plt h3 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 190%;
+    color: var(--primary-color);
+    margin: 13px 0 42px;
+}
+
+.plt h6 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 190%;
+    color: var(--back-color);
+}
+
+.plt h6 iconify-icon {
+    margin-right: 13px;
+}
+
+.plt h6 span {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 190%;
+    color: var(--primary-color);
+}
+
+.plt a {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 190%;
+    color: var(--primary-color);
+}
+
+.pst {
+    margin: 42px 0;
+}
+
+.pst img {
+    cursor: pointer;
+}
+/* -------------------------------------------------------------------------- */
+
+
+
+
+
+
+
 
 /* -------------------------------------------------------------------------- */
 /*                                   Newsletter                               */
