@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --font-family: "Poppins", sans-serif;
+  --second-family: "PT Sans", sans-serif;
+  --primary-color: #353535;
+  --secondary-color: #fc0;
+  --third-color: #fff;
+  --back-color: #7a7a7a;
+  --bg-gradient: linear-gradient(130deg, #fc0 0%, #fff5cb 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,span {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-family);
+    margin: auto;
+}
+
+hr {
+    width: 1110px;
+    margin: auto;
+}
+
+.btn_primary {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 180%;
+    color: var(--third-color);
+    display: inline-flex;
+    align-items: center;
+    gap: 11px;
+    border-radius: 20px;
+    background: var(--secondary-color);
+    padding: 16px 44px 17px 45px;
+}
+
+.btn_primary:hover {
+    text-decoration: none;
+    background: transparent;
+    color: var(--secondary-color);
+    border: 2px solid var(--secondary-color);
+    transition: .3s;
+}
+
+.btn_secondary {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 180%;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 20px;
+    padding: 16px 18px 17px 18px;
+    display: inline-flex;
+    align-items: center;
+    gap: 11px;
+    background-color: transparent;
+}
+
+.btn_secondary:hover {
+    background: var(--primary-color);
+    color: var(--third-color);
+    transition: .3s;
+}
+
+iconify-icon {
+    vertical-align: middle;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                Header Starts                               */
+
+.navbar {
+    background-color: #fff;
+}
+
+#navbarSupportedContent ul li a {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 200%;
+    color: var(--primary-color);
+    padding: 23px 23px 10px;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+}
+
+#navbarSupportedContent ul li a:hover {
+    font-weight: 600;
+    border-bottom: 1px solid var(--primary-color);
+}
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                                 About Part                                 */
+#caption {
+    background-image:url(../images/about\ bg.png);
+    border-radius: 20px;
+    width: 1110px;
+    height: 180px;
+    margin: 165px auto 0;
+    position: relative;
+}
+
+#caption h5 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 46px;
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#caption p{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 190%;
+    text-align: center;
+    color: var(--third-color);
+    margin: 7px 0 39px;
+}
+
+.cap {
+    position: absolute;
+    left: 450px;
+    top: 29px;
+}
+
+.capt {
+    position: absolute;
+    top: 75px;
+    left: 190px;
+}
+
+.lez {
+    position: absolute;
+    top: -12px;
+    right: 211px;
+}
+
+.imgg {
+    position: relative;
+    margin-top: 86px;
+}
+
+.man {
+    position: absolute;
+    z-index: 2;
+}
+
+.bgc {
+    position: relative;
+    z-index: 1;
+    margin-top: 233px;
+}
+
+.line1 {
+    position: absolute;
+    z-index: 3;
+    left: 18px;
+    top: 246px;
+}
+
+.line2 {
+    position: absolute;
+    z-index: 3;
+    right: 92px;
+    bottom: 60px;
+}
+
+.cloud {
+    position: absolute;
+    top: 44px;
+    left: 307px;
+}
+
+
+.tottho {
+    margin: 100px 0 78px;
+}
+
+.tottho p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 200%;
+    text-align: justify;
+    color: var(--back-color);
+}
+
+.leftD, 
+.rightD {
+    margin-top: 105px;
+}
+.leftD p b,
+.rightD p b {
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 190%;
+    color: var(--primary-color);
+    margin-left: 30px;
+}
+
+.leftD u,
+.rightD u {
+    font-weight: 400;
+    font-style: 19px;
+    line-height: 190%;
+    color: #3479ff;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.tottho a {
+    margin-top: 44px;
+}
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                           Experience & Education                           */
+#edEx {
+    margin: 73px 0 119px;
+}
+
+.bamn,
+.baml,
+.bamm {
+    padding: 0 47px 47px;
+    border-left: 2px dashed var(--back-color);
+    position: relative;
+}
+
+.baml {
+    padding: 0 47px 0;
+}
+
+.bamn::before,
+.baml::before,
+.bamm::before {
+    content: "";
+    position: absolute;
+    top: -16px;
+    left: -18px;
+    width: 34px;
+    height: 34px;
+    border: 2px dashed var(--back-color);
+    border-radius: 50%;
+    background-color: var(--third-color);
+}
+
+.bamn::after,
+.baml::after,
+.bamm::after {
+    content: "";
+    position: absolute;
+    top: -7px;
+    left: -9px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #52ab70;
+}
+
+.bamn::after {
+    background-color: #f17676;
+}
+.baml::after {
+    background-color: #ffd233;
+}
+
+#edEx h6 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 190%;
+    color: var(--back-color);
+    margin-bottom: 10px;
+}
+
+#edEx h1 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--primary-color);
+    margin-bottom: 71px;   
+}
+
+#edEx h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 180%;
+    color: var(--primary-color);
+}
+
+#edEx p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 200%;
+    color: var(--back-color);
+}
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                                   Skills                                   */
+#skill {
+    margin-bottom: 118px;
+}
+#skill h1 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--primary-color);
+    margin-bottom: 49px;
+}
+
+.photoshop .name,
+.xd .name,
+.illustrator .name,
+.figma .name {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 180%;
+    color: var(--primary-color);
+    margin-top: 51px;
+}
+
+.photoshop .ratio,
+.xd .ratio,
+.illustrator .ratio,
+.figma .ratio {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: right;
+    padding-top: 51px;
+    width: 50%;
+}
+
+.figma .ratio {
+    color: #f16500;
+}
+
+.photoshop .ratio {
+    color: #03249b;
+}
+
+.xd .ratio {
+    color: #700d60;
+}
+
+.illustrator .ratio {
+    color: #234bda;
+}
+
+.illustrator,
+.xd,
+.photoshop,
+.figma {
+    position: relative;
+}
+
+.illustrator .blw,
+.xd .blw,
+.photoshop .blw,
+.figma .blw {
+    margin-top: 11px;
+}
+
+.illustrator .upper4,
+.xd .upper3,
+.photoshop .upper2,
+.figma .upper1 {
+    position: absolute;
+    top: 95px;
+    width: 85%;
+    margin-bottom: -10px;
+    z-index: 1;
+}
+
+.photoshop .upper2 {
+    width: 75%;
+}
+
+.xd .upper3 {
+    width: 80%;
+}
+
+.illustrator .upper4 {
+    width: 70%;
+}
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                                   Footer                                   */
+footer {
+    max-width: 1441px;
+    height: 480px;
+    background: #575757;
+    margin: auto;
+    position: relative;
+}
+
+.uplft {
+    margin-top: 71px;
+}
+
+.crcl {
+    position: absolute;
+    top: 187px;
+    left: 88px;
+}
+
+.vctr {
+    position: absolute;
+    bottom: 67px;
+    left: -39px;
+}
+
+.upmdl h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 200%;
+    text-align: left;
+    color: var(--third-color);
+    margin: 47px 0 0 -122px;
+}
+
+.upmdl p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    text-align: left;
+    color: #bbb9b9;
+    margin-left: -122px;
+}
+
+.uprght a {
+    margin: 114px 0 0 55px;
+}
+
+.triangle {
+    position: absolute;
+    top: 162px;
+    right: 79px;
+}
+
+.dwnmdl h5,
+.dwnlft h5 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: left;
+    color: #bbb9b9;
+    margin: 96px 0 4px 0;
+}
+
+.dwnmdl h6,
+.dwnlft h6 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 180%;
+    color: #fff;
+}
+
+.dwnmdl h5 {
+    margin: 96px 0 4px -122px;
+}
+
+.dwnmdl h6 {
+    margin-left: -122px;
+}
+
+.dwnrght .cnt {
+    display: flex;
+    align-items: center;
+}
+
+.dwnrght .cnt p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: left;
+    color: var(--third-color);
+    margin: 133px 32px 0 0;
+}
+
+.dwnrght .cnt a {
+    margin: 0 16px;
+    padding: 10px;
+    color: var(--third-color);
+    border-radius: 100%;
+    background-color: #484848;
+    margin: 130px 32px 0 0;
+    align-items: center;
+    display: inline-flex;
+}
+
+.dwnrght .cnt a:hover {
+    background: var(--primary-color);
+    color: var(--third-color);
+    transition: .3s;
+}
+/* -------------------------------------------------------------------------- */

@@ -2,7 +2,7 @@
     body {
         max-width: 376px;
     }
-    
+
     .btn_primary {
         display: flex;
         justify-content: center;
@@ -59,9 +59,6 @@
 
     /* -------------------------------------------------------------------------- */
     /*                                About Section                               */
-    #about {
-        max
-    }
     #about h5 {
         font-size: 24px;
         margin: 50px 0 16px 17px;
